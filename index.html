@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Driver</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation Section -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">Daily Driver</div>
+
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="home" class="hover:text-blue-600 transition-colors">Dashboard</a>
+                <a href="fitness" class="hover:text-blue-600 transition-colors">Fitness</a>
+                <a href="tasks" class="hover:text-blue-600 transition-colors">Tasks</a>
+                <a href="finance" class="hover:text-blue-600 transition colors">Finance</a>
+                <a href="about" class="hover:text-blue-600">about</a>
+            </div>
+
+            <button class="md:hidden text-3xl">
+                ☰
+            </button>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="bg-gradient-to-br from-blue-700 to-indigo-700 text-white py-20">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">Your Daily Driver</h1>
+            <p class="text-xl md:text-2xl mb-10 max-w-2xl mx-auto">One place for fitness, tasks, finances, and staying on top of life</p>
+            <button class="bg-white text-blue-700 rounded-2xl px-8 py-4 text-lg font-semibold hover:bg-gray-100 transition">Start Your Day</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+     <div class="max-w-6xl mx-auto px-6 py-12">
+        <section id="fitness" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6">Today's Fitness</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow">
+                    <h3 class="font-semibold text-xl mb-4">Quick Log</h3>
+                    <p class="text-gray-600">Push-ups, dips, walk, etc.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="tasks">
+            <h2 class="text-3xl font-bold mb-6">Today's Tasks</h2>
+            <div class="bg-white p-8 rounded-3xl shadow">
+                <p>Simple to-do list coming soon...</p>
+            </div>
+        </section>
+     </div>
+
+     <!-- Finance Snapshot -->
+
+     <section id="finance" class="mb-16">
+        <h2></h2>
+
+
+     </section>
+    
+</body>
+</html>
